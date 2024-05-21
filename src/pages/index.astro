@@ -1,0 +1,24 @@
+---
+import Layout from "../layouts/Layout.astro";
+import RuletaAllSection from "../section/RuletaAllSection"
+
+
+---
+
+<Layout title="Sorteados">
+    <main class="flex flex-row justify-around items-center ">
+        <RuletaAllSection client:only>
+        
+    </main>
+</Layout>
+
+<style>
+    :root {
+        --giro: 0;
+    }
+    main {
+        margin: auto;
+        width: 100%;
+        height: 100%;
+    }
+</style>
